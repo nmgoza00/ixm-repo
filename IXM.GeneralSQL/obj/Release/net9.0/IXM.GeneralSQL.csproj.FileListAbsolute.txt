@@ -1,0 +1,11 @@
+C:\myData\IXM.Solution\IXM.GeneralSQL\bin\Release\net9.0\IXM.GeneralSQL.deps.json
+C:\myData\IXM.Solution\IXM.GeneralSQL\bin\Release\net9.0\IXM.GeneralSQL.dll
+C:\myData\IXM.Solution\IXM.GeneralSQL\bin\Release\net9.0\IXM.GeneralSQL.pdb
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\IXM.GeneralSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\IXM.GeneralSQL.AssemblyInfoInputs.cache
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\IXM.GeneralSQL.AssemblyInfo.cs
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\IXM.GeneralSQL.csproj.CoreCompileInputs.cache
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\IXM.GeneralSQL.dll
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\refint\IXM.GeneralSQL.dll
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\IXM.GeneralSQL.pdb
+C:\myData\IXM.Solution\IXM.GeneralSQL\obj\Release\net9.0\ref\IXM.GeneralSQL.dll
