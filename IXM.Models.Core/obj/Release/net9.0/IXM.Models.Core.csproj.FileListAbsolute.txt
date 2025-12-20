@@ -1,0 +1,17 @@
+C:\myData\IXM.Solution\IXM.Models.Core\bin\Release\net9.0\IXM.Models.Core.deps.json
+C:\myData\IXM.Solution\IXM.Models.Core\bin\Release\net9.0\IXM.Models.Core.dll
+C:\myData\IXM.Solution\IXM.Models.Core\bin\Release\net9.0\IXM.Models.Core.pdb
+C:\myData\IXM.Solution\IXM.Models.Core\bin\Release\net9.0\IXM.Models.dll
+C:\myData\IXM.Solution\IXM.Models.Core\bin\Release\net9.0\IXM.Models.pdb
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Models.Core.csproj.AssemblyReference.cache
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Models.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Models.Core.AssemblyInfoInputs.cache
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Models.Core.AssemblyInfo.cs
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Models.Core.csproj.CoreCompileInputs.cache
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Mode.46ABBA65.Up2Date
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Models.Core.dll
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\refint\IXM.Models.Core.dll
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\IXM.Models.Core.pdb
+C:\myData\IXM.Solution\IXM.Models.Core\obj\Release\net9.0\ref\IXM.Models.Core.dll
+C:\myData\IXM.Solution\IXM.Models.Core\bin\Release\net9.0\IXM.Constants.dll
+C:\myData\IXM.Solution\IXM.Models.Core\bin\Release\net9.0\IXM.Constants.pdb
