@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\myData\\IXM.Solution\\IXM.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8EDE89-00E7-5999-1D3A-82B399E2307B}|..\\IXM.Common\\IXM.Common.csproj|c:\\mydata\\ixm.solution\\ixm.common\\implementation\\genvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\transaction\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\events\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\ixmsystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\interface\\events\\ievents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\masterdata\\masterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenValues.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.Common\\Implementation\\GenValues.cs",
+              "RelativeDocumentMoniker": "..\\IXM.Common\\Implementation\\GenValues.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.Common\\Implementation\\GenValues.cs",
+              "RelativeToolTip": "..\\IXM.Common\\Implementation\\GenValues.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAD4v00AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T08:44:00.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ce0010b1-93a1-33bb-8d9c-bcc1bf6c4873}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b75af-b9db-3a22-89a7-a63d07620d84}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{936b24b7-e640-3186-98a7-24307bb298e0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEvents.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\Events\\IEvents.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\Interface\\Events\\IEvents.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\Events\\IEvents.cs",
+              "RelativeToolTip": "..\\IXM.DB\\Interface\\Events\\IEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T03:27:06.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-25T03:17:12.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Events\\Events.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\Events\\Events.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Events\\Events.cs",
+              "RelativeToolTip": "..\\IXM.DB\\Implementation\\Events\\Events.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAALQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T02:54:57.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Controllers\\EventsController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAWwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:38:35.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IXMSystemDBContext.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\IXMSystemDBContext.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\IXMSystemDBContext.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\IXMSystemDBContext.cs",
+              "RelativeToolTip": "..\\IXM.DB\\IXMSystemDBContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:36:14.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MasterData.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "RelativeToolTip": "..\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAcwNQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:33:33.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Transaction\\Transaction.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\Transaction\\Transaction.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Transaction\\Transaction.cs",
+              "RelativeToolTip": "..\\IXM.DB\\Implementation\\Transaction\\Transaction.cs",
+              "ViewState": "AgIAAN8DAAAAAAAAAAAewBIEAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T23:36:30.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwF8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T16:27:09.28Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
