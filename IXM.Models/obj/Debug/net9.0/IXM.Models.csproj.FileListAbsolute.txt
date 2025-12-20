@@ -1,0 +1,15 @@
+C:\myData\IXM.Solution\IXM.Models\bin\Debug\net9.0\IXM.Models.deps.json
+C:\myData\IXM.Solution\IXM.Models\bin\Debug\net9.0\IXM.Models.dll
+C:\myData\IXM.Solution\IXM.Models\bin\Debug\net9.0\IXM.Models.pdb
+C:\myData\IXM.Solution\IXM.Models\bin\Debug\net9.0\IXM.Constants.dll
+C:\myData\IXM.Solution\IXM.Models\bin\Debug\net9.0\IXM.Constants.pdb
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.csproj.AssemblyReference.cache
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.AssemblyInfoInputs.cache
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.AssemblyInfo.cs
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.csproj.CoreCompileInputs.cache
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.csproj.Up2Date
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.dll
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\refint\IXM.Models.dll
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.pdb
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\ref\IXM.Models.dll
