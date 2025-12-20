@@ -1,0 +1,11 @@
+C:\myData\IXM.Solution\IXM.Constants\bin\Release\net9.0\IXM.Constants.deps.json
+C:\myData\IXM.Solution\IXM.Constants\bin\Release\net9.0\IXM.Constants.dll
+C:\myData\IXM.Solution\IXM.Constants\bin\Release\net9.0\IXM.Constants.pdb
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\IXM.Constants.GeneratedMSBuildEditorConfig.editorconfig
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\IXM.Constants.AssemblyInfoInputs.cache
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\IXM.Constants.AssemblyInfo.cs
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\IXM.Constants.csproj.CoreCompileInputs.cache
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\IXM.Constants.dll
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\refint\IXM.Constants.dll
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\IXM.Constants.pdb
+C:\myData\IXM.Solution\IXM.Constants\obj\Release\net9.0\ref\IXM.Constants.dll

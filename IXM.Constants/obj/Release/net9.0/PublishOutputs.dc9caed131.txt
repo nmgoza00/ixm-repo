@@ -1,0 +1,3 @@
+C:\myData\IXM.Solution\IXM.Web\publish\IXM.Constants.dll
+C:\myData\IXM.Solution\IXM.Web\publish\IXM.Constants.deps.json
+C:\myData\IXM.Solution\IXM.Web\publish\IXM.Constants.pdb
