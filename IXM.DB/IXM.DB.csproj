@@ -1,0 +1,24 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebirdSql.EntityFrameworkCore.Firebird" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="9.4.1" />
+    <PackageReference Include="SSH.NET" Version="2025.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IXM.Common\IXM.Common.csproj" />
+    <ProjectReference Include="..\IXM.GeneralSQL\IXM.GeneralSQL.csproj" />
+    <ProjectReference Include="..\IXM.Models.Core\IXM.Models.Core.csproj" />
+    <ProjectReference Include="..\IXM.Models\IXM.Models.csproj" />
+  </ItemGroup>
+
+</Project>
