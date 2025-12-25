@@ -3,46 +3,38 @@
   "WorkspaceRootPath": "C:\\myData\\IXM.Solution\\IXM.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C8EDE89-00E7-5999-1D3A-82B399E2307B}|..\\IXM.Common\\IXM.Common.csproj|c:\\mydata\\ixm.solution\\ixm.common\\data\\customdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\publish\\ixm.api.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:publish\\ixm.api.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8EDE89-00E7-5999-1D3A-82B399E2307B}|..\\IXM.Common\\IXM.Common.csproj|c:\\mydata\\ixm.solution\\ixm.common\\generics\\generics4api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\masterdata\\masterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myData\\IXM.Solution\\FilesCompare\\MasterData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\interface\\masterdata\\imasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\interface\\member\\imember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\ixmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\masterdata\\masterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39348DE7-441F-0BC0-01BF-55BB17426FA7}|..\\IXM.Models.Core\\IXM.Models.Core.csproj|c:\\mydata\\ixm.solution\\ixm.models.core\\coremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9717755E-1F6D-28FF-55C3-3E79435E99C0}|..\\IXM.Models\\IXM.Models.csproj|c:\\mydata\\ixm.solution\\ixm.models\\companies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|c:\\mydata\\ixm.solution\\ixm.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960400D-4282-469D-AF10-BCAE8C39BFDF}|IXM.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\member\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\ixmdbrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB09203-D80F-060D-897F-4367033C2FC8}|..\\IXM.DB\\IXM.DB.csproj|c:\\mydata\\ixm.solution\\ixm.db\\implementation\\users\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9717755E-1F6D-28FF-55C3-3E79435E99C0}|..\\IXM.Models\\IXM.Models.csproj|c:\\mydata\\ixm.solution\\ixm.models\\msector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myData\\IXM.Solution\\FilesCompare\\MasterDataController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,15 +44,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IXM.API.deps.json",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\publish\\IXM.API.deps.json",
+              "RelativeDocumentMoniker": "publish\\IXM.API.deps.json",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\publish\\IXM.API.deps.json",
+              "RelativeToolTip": "publish\\IXM.API.deps.json",
+              "ViewState": "AgIAAF4EAAAAAAAAAAAwwGwEAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-25T03:20:49.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAiwOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T03:18:36.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Bookmark",
@@ -88,171 +106,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IMember.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\Member\\IMember.cs",
-              "RelativeDocumentMoniker": "..\\IXM.DB\\Interface\\Member\\IMember.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\Member\\IMember.cs",
-              "RelativeToolTip": "..\\IXM.DB\\Interface\\Member\\IMember.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Generics4API.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.Common\\Generics\\Generics4API.cs",
+              "RelativeDocumentMoniker": "..\\IXM.Common\\Generics\\Generics4API.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.Common\\Generics\\Generics4API.cs",
+              "RelativeToolTip": "..\\IXM.Common\\Generics\\Generics4API.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAewDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T04:30:25.982Z",
+              "WhenOpened": "2025-12-24T12:12:20.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomData.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.Common\\Data\\CustomData.cs",
-              "RelativeDocumentMoniker": "..\\IXM.Common\\Data\\CustomData.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.Common\\Data\\CustomData.cs",
-              "RelativeToolTip": "..\\IXM.Common\\Data\\CustomData.cs",
-              "ViewState": "AgIAABMBAAAAAAAAAAAkwCcBAAAaAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-24T12:13:59.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IXMDBContext.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\IXMDBContext.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\IXMDBContext.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\IXMDBContext.cs",
+              "RelativeToolTip": "..\\IXM.DB\\IXMDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T04:35:50.595Z",
+              "WhenOpened": "2025-12-24T12:08:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMasterData.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
+              "RelativeToolTip": "..\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T12:06:33.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MasterData.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "RelativeToolTip": "..\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
+              "ViewState": "AgIAAHkCAAAAAAAAAAAAAHkCAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:32:01.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MasterDataController.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\MasterDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterDataController.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\MasterDataController.cs",
+              "RelativeToolTip": "Controllers\\MasterDataController.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAqwP4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:28:17.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MasterDataController.cs",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\FilesCompare\\MasterDataController.cs",
+              "RelativeDocumentMoniker": "..\\FilesCompare\\MasterDataController.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\FilesCompare\\MasterDataController.cs",
+              "RelativeToolTip": "..\\FilesCompare\\MasterDataController.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAB4BAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:28:27.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MasterData.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
-              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
-              "RelativeToolTip": "..\\IXM.DB\\Implementation\\MasterData\\MasterData.cs",
-              "ViewState": "AgIAALsBAAAAAAAAAAAAAOMBAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\myData\\IXM.Solution\\FilesCompare\\MasterData.cs",
+              "RelativeDocumentMoniker": "..\\FilesCompare\\MasterData.cs",
+              "ToolTip": "C:\\myData\\IXM.Solution\\FilesCompare\\MasterData.cs",
+              "RelativeToolTip": "..\\FilesCompare\\MasterData.cs",
+              "ViewState": "AgIAAMcCAAAAAAAAAAAAANwCAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T06:39:18.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CoreModel.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.Models.Core\\CoreModel.cs",
-              "RelativeDocumentMoniker": "..\\IXM.Models.Core\\CoreModel.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.Models.Core\\CoreModel.cs",
-              "RelativeToolTip": "..\\IXM.Models.Core\\CoreModel.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAgwH4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T04:47:46.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MasterDataController.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\MasterDataController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MasterDataController.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\MasterDataController.cs",
-              "RelativeToolTip": "Controllers\\MasterDataController.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAAAIwPwAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T10:46:04.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IMasterData.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
-              "RelativeDocumentMoniker": "..\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
-              "RelativeToolTip": "..\\IXM.DB\\Interface\\MasterData\\IMasterData.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T05:32:02.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "Controllers\\MemberController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAmwFYAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T12:13:23.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCoAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T06:39:18.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Member.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Member\\Member.cs",
-              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\Member\\Member.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Member\\Member.cs",
-              "RelativeToolTip": "..\\IXM.DB\\Implementation\\Member\\Member.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T12:13:14.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IXMDBRepo.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\IXMDBRepo.cs",
-              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\IXMDBRepo.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\IXMDBRepo.cs",
-              "RelativeToolTip": "..\\IXM.DB\\Implementation\\IXMDBRepo.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAADgvzwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T04:53:06.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Companies.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.Models\\Companies.cs",
-              "RelativeDocumentMoniker": "..\\IXM.Models\\Companies.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.Models\\Companies.cs",
-              "RelativeToolTip": "..\\IXM.Models\\Companies.cs",
-              "ViewState": "AgIAAEoBAAAAAAAAAAAAAF0BAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T10:46:33.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Users\\Users.cs",
-              "RelativeDocumentMoniker": "..\\IXM.DB\\Implementation\\Users\\Users.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.DB\\Implementation\\Users\\Users.cs",
-              "RelativeToolTip": "..\\IXM.DB\\Implementation\\Users\\Users.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T04:10:37.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MSECTOR.cs",
-              "DocumentMoniker": "C:\\myData\\IXM.Solution\\IXM.Models\\MSECTOR.cs",
-              "RelativeDocumentMoniker": "..\\IXM.Models\\MSECTOR.cs",
-              "ToolTip": "C:\\myData\\IXM.Solution\\IXM.Models\\MSECTOR.cs",
-              "RelativeToolTip": "..\\IXM.Models\\MSECTOR.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T12:05:39.146Z",
+              "WhenOpened": "2025-12-23T09:30:55.453Z",
               "EditorCaption": ""
             }
           ]

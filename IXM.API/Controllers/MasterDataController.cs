@@ -1,12 +1,15 @@
-﻿using IXM.Constants;
+﻿using DocumentFormat.OpenXml.Vml.Spreadsheet;
+using IXM.Common.Generics;
+using IXM.Constants;
 using IXM.DB;
 using IXM.Models;
-using IXM.Models.Write;
 using IXM.Models.Events;
+using IXM.Models.Write;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.OData.Query;
+using Microsoft.EntityFrameworkCore;
+using static IXM.Common.Generics.Generics4API;
 //using MassTransit;
 
 namespace IXM.API.Controllers
@@ -204,11 +207,73 @@ namespace IXM.API.Controllers
         [AllowAnonymous]
         [HttpPost("City")]
         [EnableQuery]
-        public async Task<IActionResult> PostCity([FromBody] MCITY mCITY)
+        public async Task<ActionResult<ApiResponse<MCITY>>> PostCity([FromBody] MCITY mCITY)
         {
 
-            var prData = await _dbrepo.MasterData.PostCity(mCITY);
-            return prData == "nil" ? NotFound() : Ok(prData);
+            var result = await _dbrepo.MasterData.PostCity(mCITY);
+
+            return Ok(ApiResponse<MCITY>.Ok(mCITY, result));
+
+            /*
+            return result switch
+            {
+                "created" => Ok(new
+                {
+                    success = true,
+                    message = $"City '{mCITY.DESCRIPTION}' created successfully.",
+                    data = new
+                    {
+                        cityId = mCITY.CITYID,
+                        description = mCITY.DESCRIPTION
+                    }
+                }),
+
+                "updated" => Ok(new
+                {
+                    success = true,
+                    message = $"City '{mCITY.DESCRIPTION}' updated successfully.",
+                    data = new
+                    {
+                        cityId = mCITY.CITYID,
+                        description = mCITY.DESCRIPTION
+                    }
+                }),
+
+                "nochange" => Ok(new
+                {
+                    success = true,
+                    message = "No changes detected. City details are already up to date.",
+                    data = new
+                    {
+                        cityId = mCITY.CITYID,
+                        description = mCITY.DESCRIPTION
+                    }
+                }),
+
+                "duplicate_id" => BadRequest(new
+                {
+                    success = false,
+                    message = "City ID already exists."
+                }),
+
+                "duplicate_name" => BadRequest(new
+                {
+                    success = false,
+                    message = "City name already exists."
+                }),
+
+                _ => BadRequest(new
+                {
+                    success = false,
+                    message = "City save failed."
+                })
+            };
+            */
+
+
+
+
+            ////rn prData == "nil" ? NotFound() : Ok(prData);
 
         }
         [AllowAnonymous]
