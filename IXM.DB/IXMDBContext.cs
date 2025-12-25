@@ -1,5 +1,6 @@
 ﻿
 using IXM.Models;
+using IXM.Models.Notify;
 using IXM.Models.Core;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IXM.DB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5996ed14e6087bda553ffac474f945d062f6cfa5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efff56a55204812520e32c871e393314da799295")]
 [assembly: System.Reflection.AssemblyProductAttribute("IXM.DB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IXM.DB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

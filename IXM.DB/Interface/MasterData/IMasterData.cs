@@ -2,6 +2,7 @@
 using IXM.Models;
 using IXM.Models.Write;
 using IXM.Models.Core;
+using IXM.Models.Notify;
 
 namespace IXM.DB
 {
@@ -32,7 +33,7 @@ namespace IXM.DB
 
 
         Task<int> PostSector(MSECTORWr mSECTOR);
-        Task<string> PostCity(MCITY mCITY);
+        Task<API_RESPONSE> PostCity(MCITY mCITY);
         Task<int> PostUnion(MUNIONWr mUNION);
         Task<int> PostLocality(MLOCALITYWr mLOCALITY);
         Task<int> PostPeriod(MPERIODWr mPERIOD);

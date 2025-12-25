@@ -1,19 +1,15 @@
-﻿using DocumentFormat.OpenXml.Drawing.Charts;
-using DocumentFormat.OpenXml.InkML;
-using DocumentFormat.OpenXml.Office2019.Excel.ThreadedComments;
-using DocumentFormat.OpenXml.Spreadsheet;
-using IXM.Common;
-using IXM.Common.Constant;
+﻿using IXM.Common.Constant;
 using IXM.Common.Data;
 using IXM.Constants;
 using IXM.Models;
+using IXM.Models.Notify;
 using IXM.Models.Core;
 using IXM.Models.Write;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
 using System.Data;
+using Microsoft.AspNetCore.Http;
 
 namespace IXM.DB
 {
@@ -74,14 +70,15 @@ namespace IXM.DB
             try
             {
 
-                var result = await _memCache.GetOrCreateAsync("CityCache", async entry =>
+/*              var result = await _memCache.GetOrCreateAsync("CityCache", async entry =>
                 {
                     entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromHours(4);
                     return await _dbcontext.MCITY.ToListAsync();
 
-                });
+                });*/
 
-                return result ?? new List<MCITY>();
+                return await _dbcontext.MCITY.ToListAsync();
+               //eturn result ?? new List<MCITY>();
 
 
             }
@@ -405,6 +402,7 @@ namespace IXM.DB
 
                 });
 
+
                 return result ?? new List<MINTPOSITION>();
 
             }
@@ -627,17 +625,33 @@ namespace IXM.DB
         }
 
 
-        public async Task<string> PostCity(MCITY mCITY)
+        public async Task<API_RESPONSE> PostCity(MCITY mCITY)
         {
 
             try
             {
+                API_RESPONSE aPI_Response = new API_RESPONSE(); 
                 var cSECTOR = _dbcontext.MCITY.Where(a => a.CITYID == mCITY.CITYID).FirstOrDefault();
 
 
                 if (cSECTOR != null)
                 {
-                    var tPROJECTu = _dbcontext.MCITY.Where(b => b.CITYID == mCITY.CITYID)
+
+                    // 🔁 UPDATE (CITYID & DESCRIPTION are NOT editable)
+                     bool noChange =
+                            cSECTOR.CITYPE == mCITY.CITYPE &&
+                            cSECTOR.POSTCODE == mCITY.POSTCODE &&
+                            cSECTOR.NOTES == mCITY.NOTES &&
+                            cSECTOR.PROVINCEID == mCITY.PROVINCEID &&
+                            cSECTOR.PCITYID == mCITY.PCITYID &&
+                            cSECTOR.ISACTIVE == mCITY.ISACTIVE;
+
+                        if (noChange)
+                        {
+                            return genFunctions.CreateApiResponse(StatusCodes.Status200OK, "nochange", "");
+                        }
+
+                        var tPROJECTu = _dbcontext.MCITY.Where(b => b.CITYID == mCITY.CITYID)
                                    .ExecuteUpdate(up => up.SetProperty(upd => upd.INSERT_DATE, DateTime.Now)
                                                           .SetProperty(upd => upd.DESCRIPTION, mCITY.DESCRIPTION)
                                                           .SetProperty(upd => upd.CITYPE, mCITY.CITYPE)
@@ -646,12 +660,21 @@ namespace IXM.DB
                                                           .SetProperty(upd => upd.POSTCODE, mCITY.POSTCODE)
                                                           .SetProperty(upd => upd.NOTES, mCITY.NOTES)
                                                           .SetProperty(upd => upd.PCITYID, mCITY.PCITYID));
+                
+                    return genFunctions.CreateApiResponse(StatusCodes.Status200OK, "updated", "");
 
                 }
                 else
                 {
 
+                    // 🆕 CREATE
+                    // 🛑 Duplicate CITYID
+                    if (_dbcontext.MCITY.Any(x => x.CITYID == mCITY.CITYID))
+                        return genFunctions.CreateApiResponse(StatusCodes.Status200OK, "duplicate_id", "");
 
+                    // 🛑 Duplicate DESCRIPTION
+                    if (_dbcontext.MCITY.Any(x => x.DESCRIPTION == mCITY.DESCRIPTION))
+                        return genFunctions.CreateApiResponse(StatusCodes.Status200OK, "duplicate_name", "");
 
                     //var singlesys = _identitycontext.MSYSTEM.Where(a => a.SYSTEMID == mCITY.SYSTEMID.ToString()).FirstOrDefault();
                     //var _ctx = _dbfactory.Create("Firebird" + singlesys.SYSTEMNAME);
@@ -675,27 +698,26 @@ namespace IXM.DB
 
                     };
 
-                    //mCITY.CITYID = lCITYID;
                     _dbcontext.MCITY.Add(sCITY);
                     var lresult = await _dbcontext.SaveChangesAsync();
                     if (lresult >= 0)
                     {
 
                         _logger.LogInformation("City Created : {@model}", sCITY);
+                        return genFunctions.CreateApiResponse(StatusCodes.Status200OK, "created","");
 
-                    }
+                    } else return genFunctions.CreateApiResponse(StatusCodes.Status400BadRequest, "save error","");
 
 
                 }
 
 
-                return mCITY.CITYID;
             }
             catch (Exception ex)
             {
 
                 _logger.LogError("Error Encountered :: {@model}", ex.Message);
-                return "nil";
+                return genFunctions.CreateApiResponse(StatusCodes.Status400BadRequest, "error",ex.Message);
             }
 
         }

@@ -21,3 +21,4 @@ C:\myData\IXM.Solution\IXM.DB\bin\Release\net9.0\IXM.Models.Core.dll
 C:\myData\IXM.Solution\IXM.DB\bin\Release\net9.0\IXM.Models.Core.pdb
 C:\myData\IXM.Solution\IXM.DB\bin\Release\net9.0\IXM.Constants.dll
 C:\myData\IXM.Solution\IXM.DB\bin\Release\net9.0\IXM.Constants.pdb
+C:\myData\IXM.Solution\IXM.DB\obj\Release\net9.0\IXM.DB.sourcelink.json
