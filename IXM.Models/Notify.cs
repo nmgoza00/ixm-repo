@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace IXM.Models
+namespace IXM.Models.Notify
+
 {
 
     public class TMB_NOTICE
@@ -30,6 +30,16 @@ namespace IXM.Models
         public string? SOURECID { get; set; }
         public DateTime? INSERT_DATE { get; set; }
         public string? INSERTED_BY { get; set; }
+
+    }
+    public class API_RESPONSE
+    {
+        [Key]
+        public int RESPONSEID { get; set; }
+        public int StatusCode { get; set; }
+        public string GeneralMessage { get; set; }
+        public string TechnicalMessage { get; set; }
+        public DateTime InsertDate { get; set; }
 
     }
 

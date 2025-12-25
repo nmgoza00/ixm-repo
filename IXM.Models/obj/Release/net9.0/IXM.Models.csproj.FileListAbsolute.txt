@@ -13,3 +13,4 @@ C:\myData\IXM.Solution\IXM.Models\obj\Release\net9.0\ref\IXM.Models.dll
 C:\myData\IXM.Solution\IXM.Models\bin\Release\net9.0\IXM.Constants.dll
 C:\myData\IXM.Solution\IXM.Models\bin\Release\net9.0\IXM.Constants.pdb
 C:\myData\IXM.Solution\IXM.Models\obj\Release\net9.0\IXM.Models.csproj.Up2Date
+C:\myData\IXM.Solution\IXM.Models\obj\Release\net9.0\IXM.Models.sourcelink.json

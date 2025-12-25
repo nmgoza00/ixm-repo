@@ -13,3 +13,4 @@ C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.dll
 C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\refint\IXM.Models.dll
 C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.pdb
 C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\ref\IXM.Models.dll
+C:\myData\IXM.Solution\IXM.Models\obj\Debug\net9.0\IXM.Models.sourcelink.json
