@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IXM.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00d2b210b3bda9a232156e5e7d98710cc7b66dad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efff56a55204812520e32c871e393314da799295")]
 [assembly: System.Reflection.AssemblyProductAttribute("IXM.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IXM.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

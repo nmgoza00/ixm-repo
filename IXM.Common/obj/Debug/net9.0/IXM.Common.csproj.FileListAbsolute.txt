@@ -118,3 +118,4 @@ C:\myData\IXM.Solution\IXM.Common\obj\Debug\net9.0\refint\IXM.Common.dll
 C:\myData\IXM.Solution\IXM.Common\obj\Debug\net9.0\IXM.Common.pdb
 C:\myData\IXM.Solution\IXM.Common\obj\Debug\net9.0\IXM.Common.genruntimeconfig.cache
 C:\myData\IXM.Solution\IXM.Common\obj\Debug\net9.0\ref\IXM.Common.dll
+C:\myData\IXM.Solution\IXM.Common\obj\Debug\net9.0\IXM.Common.sourcelink.json

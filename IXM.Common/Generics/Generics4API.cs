@@ -1,11 +1,7 @@
-﻿using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
-using IXM.Models.Core;
+﻿
+using IXM.Models.Notify;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IXM.Common.Generics
 {
@@ -39,6 +35,20 @@ namespace IXM.Common.Generics
                 return new(items, page, pagesize, totalRecs);
 
             }
+        }
+
+        public class ApiResponse<T>
+        {
+            public bool Success { get; set; }
+            public int StatusCode { get; set; }
+            public string GeneralMessage { get; set; }
+            public string TechnicalMessage { get; set; }
+            public T Data { get; set; }
+            //public IEnumerable<string>? Errors { get; set; }
+
+            public static ApiResponse<T> Ok(T data, API_RESPONSE ApiResponseInfo)
+                => new() { Success = true, StatusCode = ApiResponseInfo.StatusCode, GeneralMessage = ApiResponseInfo.GeneralMessage, TechnicalMessage = ApiResponseInfo.TechnicalMessage, Data = data };
+
         }
 
 

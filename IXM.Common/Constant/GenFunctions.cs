@@ -1,6 +1,7 @@
 ﻿using IXM.Models;
 using IXM.Constants;
 using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+using IXM.Models.Notify;
 
 
 
@@ -160,6 +161,18 @@ namespace IXM.Common.Constant
 
             return new string(code);
 
+        }
+
+        public API_RESPONSE CreateApiResponse(int statusCode, string generalmessage, string technicalmessage)
+        {
+            API_RESPONSE response = new API_RESPONSE
+            {
+                StatusCode = statusCode,
+                GeneralMessage = generalmessage,
+                TechnicalMessage = technicalmessage,
+                InsertDate = DateTime.Now
+            };
+            return response;
         }
 
 
