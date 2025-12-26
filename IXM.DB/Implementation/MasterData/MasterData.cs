@@ -2,14 +2,15 @@
 using IXM.Common.Data;
 using IXM.Constants;
 using IXM.Models;
-using IXM.Models.Notify;
 using IXM.Models.Core;
+using IXM.Models.DTOs;
+using IXM.Models.Notify;
 using IXM.Models.Write;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using System.Data;
-using Microsoft.AspNetCore.Http;
 
 namespace IXM.DB
 {
@@ -88,6 +89,58 @@ namespace IXM.DB
                 return null;
             }
 
+        }
+
+
+        public async Task<MCITYBaseDto> GetCityById(string CITYID)
+        {
+
+            try
+            {
+                var result = await _dbcontext.CLOCALITY.Where(a => a.CITYID == CITYID).ToListAsync();
+
+                if (result != null)
+                {
+                    var lLocality = result.First().LOCALITYID;
+
+                    var City = await _dbcontext.MCITY
+                                        .Where(c => c.CITYID == result.First().CITYID)
+                                        .Select(c => new MCITYBaseDto
+                                        {
+                                            CITYID = c.CITYID,
+                                            DESCRIPTION = c.DESCRIPTION,
+                                            PROVINCEID = c.PROVINCEID,
+                                            ISACTIVE = c.ISACTIVE
+                                        }).SingleOrDefaultAsync();
+
+                    var Locality = _dbcontext.MLOCALITY
+                                   .Where(l => l.LOCALITYID == lLocality)
+                                   .Select(l => new MLOCALITYBaseDto
+                                   {
+                                       LOCALITYID = l.LOCALITYID,
+                                       DESCRIPTION = l.DESCRIPTION
+                                   }).Single();
+
+                    var Province = _dbcontext.MPROVINCE
+                                   .Where(p => p.PROVINCEID == City.PROVINCEID)
+                                   .Select(p => new MPROVINCEBaseDto
+                                   {
+                                       PROVINCEID = p.PROVINCEID,
+                                       DESCRIPTION = p.DESCRIPTION
+                                   }).Single();
+
+                    City.Locality = Locality;
+                    City.Province = Province;
+
+                    return City;
+
+                }
+                else return null;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         public async Task<List<MEMPTYPE>> GetEmployeeType()

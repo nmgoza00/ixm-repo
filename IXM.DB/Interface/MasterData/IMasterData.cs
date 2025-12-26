@@ -3,6 +3,7 @@ using IXM.Models;
 using IXM.Models.Write;
 using IXM.Models.Core;
 using IXM.Models.Notify;
+using IXM.Models.DTOs;
 
 namespace IXM.DB
 {
@@ -10,6 +11,7 @@ namespace IXM.DB
     {
         Task<List<MCASETYPE>> GetCaseType();
         Task<List<MCITY>> GetCities();
+        Task<MCITYBaseDto> GetCityById(string CIYTID);
         Task<List<MLOCALITY>> GetLocality();
         Task<List<MPERIOD>> GetPeriod(int? PeriodId);
         Task<List<MSTATUS_TEXT>> GetStatusText();
