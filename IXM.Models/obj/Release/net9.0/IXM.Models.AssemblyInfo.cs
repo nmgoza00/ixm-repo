@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IXM.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb2467646e40ce93bcbd3e78ed57d66e98cd16a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30aae104d6830874c0cc3208f920288fb5dc61e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("IXM.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IXM.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

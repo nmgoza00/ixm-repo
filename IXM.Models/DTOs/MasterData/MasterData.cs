@@ -1,64 +1,36 @@
-﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace IXM.Models
+namespace IXM.Models.DTOs
 {
-    public class DataModel
+    public class MasterData
     {
     }
 
-    public class MUSER
-    {
 
+
+    public class MCITYBaseDto
+    {
         [Key]
-        public int USERID { get; set; }
-        public string UNAME { get; set; }
-        public string? UPASSWORD { get; set; }
-        public string? NAME { get; set; }
-        public string? SURNAME { get; set; }
-        public string? TELNUMBER { get; set; }
-        public string? CELLNUMBER { get; set; }
-        public int? LOCALITYID { get; set; }
-        public int? IPOSITIONID { get; set; }
-        public int? UGID { get; set; }
-        public int? MEMBERID { get; set; }
-        public int? EMPID { get; set; }
-        public int? MSTATUSID { get; set; }
-        [EmailAddress]
-        public string? EMAILADDRESS { get; set; }
-        public DateOnly? EXPDAT { get; set; }
-        public string? AUTHCODE { get; set; }
-        public string? APPSERVICE { get; set; }
-        public string? INSERTED_BY { get; set; }
-        public DateTime? INSERT_DATE { get; set; }
-        public string? MODIFIED_BY { get; set; }
-        public DateTime? MODIFIED_DATE { get; set; }
-        public string? MCNAME { get; set; }
+        public required string CITYID { get; set; }
+        public required string DESCRIPTION { get; set; }
+        public string? PROVINCEID { get; set; }
         public string? ISACTIVE { get; set; }
-        [NotMapped]
-        public string UGCODE { get; set; }
-        [NotMapped]
-        public string? SYSCODE { get; set; }
-        [NotMapped]
-        public string OBJECTID { get; set; }
-        [NotMapped]
-        public string DOCUMENTNAME { get; set; }
-        [NotMapped]
-        public string SFOLDERNAME { get; set; }
-        [NotMapped]
-        public string IMAGEURI { get; set; }
-
+        public MPROVINCEBaseDto Province { get; set; }
+        public MLOCALITYBaseDto Locality { get; set; }
     }
 
-    public class MUSERLst
+    public class MLOCALITYBaseDto
     {
-        public List<MUSER> MUSERs { get; set; }
+        [Key]
+        public required int LOCALITYID { get; set; }
+        public required string DESCRIPTION { get; set; }
+    }
+
+    public class MPROVINCEBaseDto
+    {
+        [Key]
+        public required string PROVINCEID { get; set; }
+        public required string DESCRIPTION { get; set; }
     }
 
     public class STATSREGION

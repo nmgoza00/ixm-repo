@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IXM.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efff56a55204812520e32c871e393314da799295")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30aae104d6830874c0cc3208f920288fb5dc61e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("IXM.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IXM.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
